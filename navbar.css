@@ -24,10 +24,30 @@ element.style {
 }
 .navbar {
     position: relative;
-    min-height: 50px;
+    min-height: 90px;
     margin-bottom: 20px;
     border: 1px solid transparent;
 }
+
+a.navbar-brand {
+    padding: 0;
+    margin-right: 10px;
+}
+.navbar-nav {
+    margin-top: 17px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #E7731F;
+    font-weight: 700;
+    background: none;
+}
+
+.navbar-collapse.collapse.in {
+    border: none;
+}
+
+
 
 li {
     display: inline;
