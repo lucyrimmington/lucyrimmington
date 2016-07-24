@@ -1,0 +1,68 @@
+body{
+				background: url("https://images.unsplash.com/photo-1414170695976-59c0463bd11d?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=913&q=80") no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size:cover;
+				font-family: 'Dancing Script', cursive;
+
+}
+h1{
+	font-size: 100px;
+	color: white;
+	position: fixed;
+	padding: 75px 0 0 60px;
+}
+
+#quote{
+	padding: 0 0 0 60px;
+	color: white;
+}
+
+.quote{
+	font-size: 30px;
+	position:fixed;
+	top:300px;
+}
+.author{
+	font-size: 10px;
+	position:fixed;
+	top:370px;
+}
+#info{
+	background-color: rgba(0,0,0,0.5);
+	width:450px;
+	height:90px;
+	text-align: center;
+	font-size: 25px;
+	position: fixed;
+	bottom: 20px;
+	right: 50px;
+	color: white;
+}
+span{
+	vertical-align: middle;
+}
+
+.facebook{
+	background-image: url("https://image.freepik.com/free-icon/facebook-symbol_318-37686.png");
+	left: 60px;
+}
+.twitter{
+	background-image: url("http://www.akaipro.com/files/site/follow/icon-twitter-b.png");
+	left: 105px;
+}
+.snapchat{
+	background-image: url("http://www.freeiconspng.com/uploads/foundation-3-social-snapchat-icon--style-flat-rounded-square-white--23.png");
+	left: 150px;
+}
+#social{
+	height: 30px;
+	width: 30px;
+	background-size:cover;
+	position: fixed;
+	bottom: 20px;
+}
+
+
+
