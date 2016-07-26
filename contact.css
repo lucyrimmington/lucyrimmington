@@ -1,0 +1,85 @@
+
+/*Large background image across the whole page*/
+body{
+				background: url("https://images.unsplash.com/photo-1414170695976-59c0463bd11d?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=913&q=80") no-repeat center center fixed;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size:cover;
+				font-family: 'Dancing Script', cursive;
+
+}
+/* Country title made large and in the position in the top left*/
+h1{
+	font-size: 100px;
+	color: white;
+	/*position: fixed;*/
+	padding: 150px 0 0 60px;
+}
+/*Creates larger query textbox for user input*/
+#textbox
+{
+	height:200px;
+	font-size:12pt;
+}
+
+#subtitle
+{
+	color: white;
+	font-size: 30px;
+	/*margin-top: 300px;*/
+	margin-left: 50px;
+}
+#body
+{
+	margin-left: 50px;
+}
+#text
+{
+	color:white;
+}
+
+/*Edit the box with details to go to the bottom right and be transparent with white font*/
+#info{
+	background-color: rgba(0,0,0,0.5);
+	width:450px;
+	height:90px;
+	text-align: center;
+	font-size: 25px;
+	position: fixed;
+	bottom: 20px;
+	right: 50px;
+	color: white;
+}
+/*Align the text in the middle of the box vertically*/
+span{
+	vertical-align: middle;
+}
+
+/*Add icon images to social media buttons*/
+.facebook{
+	background-image: url("https://image.freepik.com/free-icon/facebook-symbol_318-37686.png");
+	left: 60px;
+}
+.twitter{
+	background-image: url("http://www.akaipro.com/files/site/follow/icon-twitter-b.png");
+	left: 105px;
+}
+.snapchat{
+	background-image: url("http://www.freeiconspng.com/uploads/foundation-3-social-snapchat-icon--style-flat-rounded-square-white--23.png");
+	left: 150px;
+}
+/*Change size etc. of all social media buttons together*/
+#social{
+	height: 30px;
+	width: 30px;
+	background-size:cover;
+	position: fixed;
+	bottom: 20px;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+
