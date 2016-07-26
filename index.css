@@ -166,6 +166,13 @@ text-shadow: 1px 1px 0px #202020
   padding-bottom: 0px;
 }
 
+a{
+  color:white;
+}
+a:hover {
+    color: white;
+}
+
 
 
 
