@@ -1,7 +1,7 @@
 element.style {
 }
 .navbar-default {
-    background-color: #f8f8f8;
+    background-color: rgba(0,0,0,0.2);
     border-color: #e7e7e7;
 }
 .navbar-fixed-top {
@@ -23,7 +23,8 @@ element.style {
     border-radius: 4px;
 }
 .navbar {
-    position: relative;
+    position: absolute;
+    top: 0px;
     min-height: 90px;
     margin-bottom: 20px;
     border: 1px solid transparent;
@@ -38,10 +39,15 @@ a.navbar-brand {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #E7731F;
+    color: white;
     font-weight: 700;
     background: none;
 }
+
+.navbar-default .navbar-nav > li > a{
+    color:white;
+}
+
 
 .navbar-collapse.collapse.in {
     border: none;
@@ -51,6 +57,7 @@ a.navbar-brand {
 
 li {
     display: inline;
+    color: white;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -70,7 +77,7 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
+    color: white;
     background-color: #fff;
 }
 Inherited from html
@@ -107,3 +114,6 @@ Pseudo ::after element
     box-sizing: border-box;
 }
 
+.dropdown-menu{
+    background-color:rgba(255,255,255,0.6);
+}
