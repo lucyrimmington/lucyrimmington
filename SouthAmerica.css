@@ -12,7 +12,6 @@ body{
 h1{
 	font-size: 100px;
 	color: white;
-	position: fixed;
 	padding: 150px 0 0 60px;
 }
 
@@ -25,13 +24,11 @@ h1{
 /*Change the font size and position of the quote by itself*/
 .quote{
 	font-size: 30px;
-	position:fixed;
 	top:300px;
 }
 /*Change the font size and position of the author by itself*/
 .author{
 	font-size: 10px;
-	position:fixed;
 	top:370px;
 }
 /*Edit the box with details to go to the bottom right and be transparent with white font*/
@@ -41,10 +38,11 @@ h1{
 	height:90px;
 	text-align: center;
 	font-size: 25px;
-	position: fixed;
 	bottom: 20px;
-	right: 50px;
+	right: 10px;
 	color: white;
+	position: absolute;
+ 	margin-bottom: 50px;
 }
 /*Align the text in the middle of the box vertically*/
 span{
