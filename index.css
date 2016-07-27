@@ -1,35 +1,3 @@
-body{
-				/*background: url("https://images.unsplash.com/photo-1450150713862-56d28b961558?dpr=2.5&auto=format&crop=entropy&fit=crop&w=1080&h=810&q=80") no-repeat center center fixed;
-				-webkit-background-size: cover;
-				-moz-background-size: cover;
-				-o-background-size: cover;
-				background-size:cover;*/
-}
-/*Carouselle CSS
-
-.carousel {
-  height: 500px;
-  margin-bottom: 0px;
-}
-
-.carousel-caption {
-  z-index: 10;
-}
-
-.carousel .item {
-  height: 500px;
-  padding-top: -5px;
-}
-
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-  max-width: none;
-}*/
-
 html,
 body {
     height: 100%;
@@ -46,13 +14,12 @@ body {
  .carousel-caption h1{
   font-family: 'Dancing Script', cursive;
  }
-
+/*Makinng the carousel whole page*/
 .carousel-inner {
     height: 100%;
  }
 
-/* Background images are set within the HTML using inline CSS, not here */
-
+/*Fill is for the pictures in the carousel, 3 pictures for 3 slides.*/
 .fill1 {
   background-image:url('https://images.unsplash.com/photo-1465588042420-47a53c2d0320?dpr=2.5&amp;auto=format&amp;crop=entropy&amp;fit=crop&amp;w=767&amp;h=483&amp;q=80');
     width: 100%;
@@ -87,50 +54,26 @@ body {
     -o-background-size: cover;
     font-family: 'Dancing Script', cursive;
 }
-#trips h1{
-  margin: 0 0 35px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  padding-left: 400px;
-  padding-top: 100px;
-}
-
-.img{
-  max-width:50%;
-  height:auto;
-  width: 106px;
-  height:69px;
-
-}
-
-element.style{
-    width: 106px;
-    height: 69px;
-    background-image: url("https://images.unsplash.com/photo-1468476775582-6bede20f356f?dpr=2.5&auto=compress,format&crop=entropy&fit=crop&w=767&h=501&q=80");
-    background-color: rgb(31, 44, 57);
-
-}
 
 .center-block {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 300px;
+    margin-bottom: 190px;
 }
-
 
 .image{
   position:relative;
   width:100%;
   padding-top: 30px;
 }
-
+/*Making the small headers on the little pictures have a translucent background*/
 h2 span {
   color: white;
   background: rgba(0, 0, 0, 0.7);
   padding:10px;
 }
-
+/*Making the position of the titles in the correct place*/
 h2{
   position:absolute;
   top:100px;
@@ -138,22 +81,23 @@ h2{
   width:100%;
   color: white;
 }
-
+/*Making the heading the correct place and style*/
 .container h1{
   padding-top: 50px;
   padding-bottom: 20px;
   padding-left: 395px;
   font-weight: 900;
 }
-
+/*Getting the footer in the right place*/
 footer {
 width: 100%;
 float: left;
 margin: 0;
+padding-top: 10px;
 border-radius: 0px;
 background-color: #2b2d2e;
 }
-
+/*Adding the address in the right place*/
 address {
 font-size : 16px; 
 text-align : center; 
@@ -161,18 +105,81 @@ color: #efefef;
 padding: 1% 0;
 text-shadow: 1px 1px 0px #202020
 }
-
-.container{
-  padding-bottom: 0px;
-}
-
+/*Making the links on the litle pictures white*/
 a{
   color:white;
 }
+/*Making them white even when you hover over them*/
 a:hover {
     color: white;
 }
-
-
+/*Specific style for when screen is above 300px (and below 500px)(xsmall)*/
+@media (min-width: 300px) {
+/*Moving the heading to the left to be seen*/
+  .container h1{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  font-weight: 900;
+}
+/*making padding under the little images small as they stack*/
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+}
+/*Specific style for when screen is above 300px (and below 768px)(small)*/
+@media (min-width: 500px) { 
+/*Adjust the heading position till it looks alright*/
+  .container h1{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  font-weight: 900;
+}
+/*Make space under little pictures small as they are stacked*/
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+}
+/*Specific style for when screen is above 7680px (and below 990px)(medium)*/
+@media (min-width: 768px) { 
+/*Adjust the heading position till it looks alright*/
+  .container h1{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 330px;
+  font-weight: 900;
+}
+/*Make space under little pictures big as they are no longer stacked*/
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 190px;
+}
+}
+/*Specific style for when screen is above 990px (large)*/
+@media (min-width: 990px) { 
+/*Adjust the heading position till it looks alright*/
+  .container h1{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 410px;
+  font-weight: 900;
+}
+/*Make space under little pictures big as they are no longer stacked*/
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 190px;
+}
+}
 
 
